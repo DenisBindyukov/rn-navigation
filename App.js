@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {bootstrap} from "./src/bootstrap";
+import {AppNavigation} from "./src/navigation/AppNavigation";
 
 export default function App() {
     const [isReady, setIsReady] = useState(false)
@@ -13,12 +14,7 @@ export default function App() {
             onError={err => console.log(err)}/>
     }
 
-    return (
-        <View style={styles.container}>
-            <Text>Open up App.js to start working on your app!</Text>
-
-        </View>
-    );
+    return <AppNavigation/>
 }
 
 const styles = StyleSheet.create({
