@@ -12,7 +12,7 @@ export const MainScreen = ({navigation}) => {
     }
 
     return (
-        <View>
+        <View style={styles.wrap}>
             <FlatList
                 data={DATA}
                 keyExtrator={post => post.id.toString()}
