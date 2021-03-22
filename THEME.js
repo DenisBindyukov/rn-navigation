@@ -1,4 +1,5 @@
 export const THEME = {
     MAIN_COLOR: '#303f9f',
-    DANGER_COLOR: '#d81d60'
+    DANGER_COLOR: '#d81d60',
+    WHITE_COLOR: '#fff'
 }

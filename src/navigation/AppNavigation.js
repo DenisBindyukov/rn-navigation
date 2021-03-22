@@ -6,6 +6,7 @@ import {Platform} from "react-native";
 import {THEME} from "../../THEME";
 
 
+
 const PostNavigator = createStackNavigator({
     MyBlog: MainScreen,
     Post: {
